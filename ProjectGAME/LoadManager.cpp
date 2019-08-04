@@ -1,4 +1,10 @@
 #include "LoadManager.h"
+LoadManager::LoadManager() {
+	std::cout << "Initalize Load manager" << std::endl;
+}
+LoadManager::~LoadManager() {
+	std::cout << "Delete load manager" << std::endl;
+}
 void LoadManager::LoadTexture(std::string path) {
 	sf::Texture _Texture;
 	if (_Texture.loadFromFile(path)) {

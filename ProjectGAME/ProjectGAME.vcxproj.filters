@@ -25,6 +25,9 @@
     <Filter Include="Source Files\State">
       <UniqueIdentifier>{0b04c6fe-31dc-48c4-8441-517269464f99}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resource Files\IMAGE">
+      <UniqueIdentifier>{79eb6d0a-594a-4176-95de-9f31772ab595}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseState.h">
@@ -43,6 +46,15 @@
       <Filter>Header Files\GameManager</Filter>
     </ClInclude>
     <ClInclude Include="Intro.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Credit.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Gameplay.h">
       <Filter>Header Files\State</Filter>
     </ClInclude>
   </ItemGroup>
@@ -65,5 +77,22 @@
     <ClCompile Include="Intro.cpp">
       <Filter>Source Files\State</Filter>
     </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Credit.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Gameplay.cpp">
+      <Filter>Source Files\State</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\minh\Pictures\roadcar.jpg">
+      <Filter>Resource Files\IMAGE</Filter>
+    </Image>
+    <Image Include="C:\Users\minh\Downloads\inverse.png">
+      <Filter>Resource Files\IMAGE</Filter>
+    </Image>
   </ItemGroup>
 </Project>

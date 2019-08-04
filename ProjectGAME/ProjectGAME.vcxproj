@@ -128,19 +128,29 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BaseState.h" />
+    <ClInclude Include="Credit.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Gameplay.h" />
     <ClInclude Include="InputManager.h" />
     <ClInclude Include="Intro.h" />
     <ClInclude Include="LoadManager.h" />
+    <ClInclude Include="Menu.h" />
     <ClInclude Include="StateManager.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Credit.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Gameplay.cpp" />
     <ClCompile Include="InputManager.cpp" />
     <ClCompile Include="Intro.cpp" />
     <ClCompile Include="LoadManager.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Menu.cpp" />
     <ClCompile Include="StateManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="C:\Users\minh\Downloads\inverse.png" />
+    <Image Include="C:\Users\minh\Pictures\roadcar.jpg" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

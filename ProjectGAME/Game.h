@@ -19,6 +19,7 @@ public:
 	
 private:
 	GameProperty _GameProperty = std::make_shared<Property>();
+	sf::Clock _Clock;
 	void run();
 };
 

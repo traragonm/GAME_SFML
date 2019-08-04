@@ -13,5 +13,6 @@ public:
 private:
 	std::stack<State> _States;
 	State _TempState;
+	void Clear();
 };
 

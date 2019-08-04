@@ -5,6 +5,8 @@
 #include"SFML/Graphics.hpp"
 class LoadManager{
 public:
+	LoadManager();
+	~LoadManager();
 	void LoadTexture(std::string path);
 	sf::Texture &GetTexture(std::string name);
 	void LoadFont(std::string path);
