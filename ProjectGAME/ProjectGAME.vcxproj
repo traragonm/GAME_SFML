@@ -130,12 +130,14 @@
     <ClInclude Include="BaseState.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="InputManager.h" />
+    <ClInclude Include="Intro.h" />
     <ClInclude Include="LoadManager.h" />
     <ClInclude Include="StateManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="Intro.cpp" />
     <ClCompile Include="LoadManager.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="StateManager.cpp" />

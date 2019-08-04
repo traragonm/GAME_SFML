@@ -5,7 +5,7 @@ void LoadManager::LoadTexture(std::string path) {
 		this->_listTexture[path] = _Texture;
 	}
 	else {
-
+		std::cout << "Texture loading error" << std::endl;
 	}
 }
 sf::Texture& LoadManager::GetTexture(std::string name) {
@@ -17,7 +17,7 @@ void LoadManager::LoadFont(std::string path) {
 		this->_listFont[path] = _Font;
 	}
 	else {
-
+		std::cout << "Font loading error" << std::endl;
 	}
 }
 sf::Font& LoadManager::GetFont(std::string name) {

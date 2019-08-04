@@ -22,6 +22,9 @@
     <Filter Include="Source Files\GameManager">
       <UniqueIdentifier>{b1873c73-4900-494d-93f8-1ef5d82817bb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\State">
+      <UniqueIdentifier>{0b04c6fe-31dc-48c4-8441-517269464f99}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BaseState.h">
@@ -39,6 +42,9 @@
     <ClInclude Include="StateManager.h">
       <Filter>Header Files\GameManager</Filter>
     </ClInclude>
+    <ClInclude Include="Intro.h">
+      <Filter>Header Files\State</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -55,6 +61,9 @@
     </ClCompile>
     <ClCompile Include="StateManager.cpp">
       <Filter>Source Files\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Intro.cpp">
+      <Filter>Source Files\State</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
